@@ -1,0 +1,20 @@
+{
+    "presets": [
+
+        "es2015",
+
+        // enable experimental javascript
+        "stage-0",
+
+        // transpiles react to javascript
+        "react"
+    ],
+    
+
+    "plugins": [
+
+        // Enables React code to work with HMR.
+        "react-hot-loader/babel"
+        
+    ]
+}
